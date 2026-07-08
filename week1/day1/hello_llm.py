@@ -62,7 +62,7 @@ response = client.chat.completions.create(model=model, messages=messages)
 
 
 # --------------------------------------------------------
-# STEP 5: Extract the assistant's reply
+# STEP 4: Extract the assistant's reply
 # --------------------------------------------------------
 answer = response.choices[0].message.content
 print(answer)
