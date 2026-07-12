@@ -56,18 +56,18 @@ token-playground/
 
 # 🧪 Experiments
 
-| Experiment | Status |
-|------------|--------|
-| 1. Prompt Length vs Tokens | ✅ |
-| 2. English vs Hindi vs Hinglish | ✅ |
-| 3. Emojis & Special Characters | ⏳ |
-| 4. Punctuation Impact | ⏳ |
-| 5. max_tokens Comparison | ⏳ |
-| 6. Temperature vs Tokens | ⏳ |
-| 7. System Prompt Overhead | ⏳ |
-| 8. Conversation History Growth | ⏳ |
-| 9. Safety Responses | ⏳ |
-| 10. Token Cost Calculator | ⏳ |
+# 🧪 Experiments
+
+| Experiment | Description | Status |
+|------------|-------------|--------|
+| 1. Prompt Length vs Token Usage | Observe how prompt length affects token consumption. | ✅ |
+| 2. English vs Hindi vs Hinglish | Compare multilingual tokenization efficiency. | ✅ |
+| 3. Emojis & Unicode | Measure the impact of emojis and Unicode characters on token usage. | ✅ |
+| 4. Punctuation Impact | Study how punctuation influences tokenization. | ✅ |
+| 5. Temperature vs Creativity | Analyze whether temperature changes token usage or only creativity. | ✅ |
+| 6. System Prompt Overhead | Measure additional prompt tokens introduced by system prompts. | ✅ |
+| 7. Conversation History Growth | Observe how conversation memory increases prompt tokens. | ✅ |
+| 8. Safety Behaviour | Analyze how LLMs respond to unsafe prompts. | ✅ |
 
 ---
 
@@ -86,14 +86,20 @@ Rather than relying only on theoretical explanations, this project records real 
 
 ---
 
-# 🚀 Future Improvements
+# 📚 Key Learnings
 
-- Token usage graphs
-- Automatic Markdown report generation
-- CSV export
-- Cost estimation calculator
-- Model comparison
-- Performance benchmarking
+Throughout these experiments, several important observations emerged:
+
+- Tokenization is based on tokenizer vocabulary rather than character count.
+- Prompt length directly influences prompt token usage.
+- Different languages consume different numbers of tokens.
+- Emojis and Unicode characters introduce additional prompt tokens.
+- Temperature changes creativity without affecting prompt token count.
+- System prompts increase the overall prompt size.
+- Conversation history continually increases API cost.
+- Modern LLMs usually refuse unsafe requests while still returning a normal completion.
+
+These experiments transformed theoretical concepts into measurable observations through practical testing.
 
 ---
 

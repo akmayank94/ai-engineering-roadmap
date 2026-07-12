@@ -82,27 +82,8 @@ However, I do not expect the increase to be significant.
 
 ---
 
-# Experiment 5 — max_tokens Comparison
 
-## Research Question
-
-**How does changing `max_tokens` affect the generated response?**
-
-### Prediction
-
-I expect smaller values of `max_tokens` to produce shorter responses.
-
-Whenever the response reaches the specified limit, I expect:
-
-```
-finish_reason = length
-```
-
-Larger values should allow the model to produce more complete answers.
-
----
-
-# Experiment 6 — Temperature vs Token Usage
+# Experiment 5 — Temperature vs Token Usage
 
 ## Research Question
 
@@ -118,7 +99,7 @@ Completion token usage may vary slightly because more creative responses can bec
 
 ---
 
-# Experiment 7 — System Prompt Overhead
+# Experiment 6 — System Prompt Overhead
 
 ## Research Question
 
@@ -132,7 +113,7 @@ Longer system prompts should consume noticeably more prompt tokens than shorter 
 
 ---
 
-# Experiment 8 — Conversation History Growth
+# Experiment 7 — Conversation History Growth
 
 ## Research Question
 
@@ -148,7 +129,7 @@ This is one of the primary reasons production AI chatbots implement memory manag
 
 ---
 
-# Experiment 9 — Safety Responses
+# Experiment 8 — Safety Responses
 
 ## Research Question
 
@@ -170,22 +151,13 @@ because the refusal itself is considered a valid completion.
 
 ---
 
-# Experiment 10 — Token Cost Calculator
-
-## Research Question
-
-**Can token usage be converted into an estimated API cost?**
-
-### Prediction
-
-I expect a simple mathematical formula to accurately estimate the approximate cost of an API request once the provider's pricing is known.
-
-This experiment should demonstrate how production systems estimate operational expenses before deployment.
-
----
 
 # 🎯 Goal of These Experiments
 
 Rather than accepting theoretical explanations, this project aims to verify important AI Engineering concepts through practical experimentation.
 
-Each hypothesis will be compared with real experimental results to better understand how modern Large Language Models behave in real-world scenarios.
+Each prediction is written before executing the experiment, allowing direct comparison between expectations and actual observations.
+
+This workflow follows a simple engineering methodology:
+
+Question → Hypothesis → Experiment → Results → Observation → Conclusion
