@@ -6,9 +6,9 @@
 
 # 📖 Overview
 
-This project explores one of the most fundamental concepts in AI Engineering — **Tokens**.
+This Implementation explores one of the most fundamental concepts in AI Engineering — **Tokens**.
 
-Instead of only learning the theory behind tokenization, this project performs hands-on experiments to observe how different prompts, languages, emojis, punctuation, response limits, and conversation history affect token usage.
+Instead of only learning the theory behind tokenization, this Implementation performs hands-on experiments to observe how different prompts, languages, emojis, punctuation, response limits, and conversation history affect token usage.
 
 The goal is to better understand how token consumption influences:
 
@@ -41,7 +41,7 @@ The goal is to better understand how token consumption influences:
 
 ---
 
-# 📂 Project Structure
+# 📂 Implementation Structure
 
 ```text
 token-playground/
@@ -53,8 +53,6 @@ token-playground/
 ```
 
 ---
-
-# 🧪 Experiments
 
 # 🧪 Experiments
 
@@ -71,7 +69,7 @@ token-playground/
 
 ---
 
-# 💡 Why This Project?
+# 💡 Why This Implementation?
 
 Understanding token usage is one of the most practical skills in AI Engineering.
 
@@ -82,7 +80,7 @@ Efficient token management helps developers:
 - Optimize prompt design
 - Build scalable AI systems
 
-Rather than relying only on theoretical explanations, this project records real experimental observations using actual LLM API responses.
+Rather than relying only on theoretical explanations, this Implementation records real experimental observations using actual LLM API responses.
 
 ---
 
