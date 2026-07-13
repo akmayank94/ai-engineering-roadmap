@@ -6,19 +6,19 @@
 
 ## 📖 Overview
 
-This is the first project in my **AI Engineering Roadmap**.
+This is the first Implementation in my **AI Engineering Roadmap**.
 
-The goal of this project is to understand the complete workflow of making an LLM API call using Python. Instead of using ChatGPT through a web browser, we interact directly with a language model through code.
+The goal of this Implementation is to understand the complete workflow of making an LLM API call using Python. Instead of using ChatGPT through a web browser, we interact directly with a language model through code.
 
-By the end of this project, you'll understand how modern AI applications communicate with LLMs and how to securely manage API keys.
+By the end of this Implementation, you'll understand how modern AI applications communicate with LLMs and how to securely manage API keys.
 
 ---
 
 # 🎯 Learning Objectives
 
-After completing this project, you should be able to:
+After completing this Implementation, you should be able to:
 
-- Create a Python project using **uv**
+- Create a Python Implementation using **uv**
 - Create and activate a virtual environment
 - Install third-party Python packages
 - Securely store API keys using `.env`
@@ -34,7 +34,7 @@ After completing this project, you should be able to:
 | Technology | Purpose |
 |------------|---------|
 | Python 3.10 | Programming Language |
-| uv | Python Project & Package Manager |
+| uv | Python Implementation & Package Manager |
 | Groq SDK | Communicate with LLMs |
 | python-dotenv | Load environment variables |
 | Git | Version Control |
@@ -42,7 +42,7 @@ After completing this project, you should be able to:
 
 ---
 
-# 📂 Project Structure
+# 📂 Implementation Structure
 
 ```text
 day1/
@@ -53,7 +53,7 @@ day1/
 ├── .python-version
 ├── hello_llm.py
 ├── main.py
-├── pyproject.toml
+├── pyImplementation.toml
 ├── uv.lock
 └── README.md
 ```
@@ -63,11 +63,11 @@ day1/
 | File | Description |
 |------|-------------|
 | hello_llm.py | Main application that communicates with the LLM |
-| pyproject.toml | Project configuration and dependencies |
+| pyImplementation.toml | Implementation configuration and dependencies |
 | uv.lock | Locked dependency versions |
-| .python-version | Python version used in this project |
+| .python-version | Python version used in this Implementation |
 | .env | Stores the API key securely *(not pushed to GitHub)* |
-| README.md | Project documentation |
+| README.md | Implementation documentation |
 
 ---
 
@@ -159,7 +159,7 @@ Cristiano Ronaldo is a Portuguese professional footballer widely regarded as one
 
 # 🧠 Concepts Learned
 
-During this project I learned:
+During this Implementation I learned:
 
 - What an LLM API is
 - Why developers use APIs instead of ChatGPT UI
@@ -178,19 +178,19 @@ During this project I learned:
 # 🔍 Understanding the Workflow
 
 ```
-User Prompt
+ User Prompt
       │
       ▼
 Python Program
       │
       ▼
-Groq SDK
+  Groq SDK
       │
       ▼
-Groq API
+  Groq API
       │
       ▼
-LLM Model
+ LLM Model
       │
       ▼
 Generated Response
@@ -263,8 +263,8 @@ uv add groq python-dotenv
 - ✅ Stored API key in `.env`
 - ✅ Did not hardcode secrets
 - ✅ Used dependency management with `uv`
-- ✅ Kept project isolated
-- ✅ Added project documentation
+- ✅ Kept Implementation isolated
+- ✅ Added Implementation documentation
 
 ---
 
@@ -291,8 +291,8 @@ In the next lesson, I'll explore:
 
 **Mayank**
 
-This project is part of my **AI Engineering Roadmap**, where I'm learning AI Engineering by building practical projects, documenting concepts, and sharing everything publicly on GitHub.
+This Implementation is part of my **AI Engineering Roadmap**, where I'm learning AI Engineering by building practical Implementations, documenting concepts, and sharing everything publicly on GitHub.
 
-If you found this project helpful, consider ⭐ starring the repository.
+If you found this Implementation helpful, consider ⭐ starring the repository.
 
 ---
