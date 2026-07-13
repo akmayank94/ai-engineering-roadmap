@@ -21,7 +21,7 @@ These concepts are fundamental in building reliable AI-powered applications.
 
 # 🎯 Learning Objectives
 
-After completing this project, you should be able to:
+After completing this implementation, you should be able to:
 
 - Understand the purpose of System Prompts
 - Differentiate between System and User messages
@@ -37,7 +37,7 @@ After completing this project, you should be able to:
 | Technology | Purpose |
 |------------|---------|
 | Python 3.10 | Programming Language |
-| uv | Python Project & Package Manager |
+| uv | Python implementation & Package Manager |
 | Groq SDK | LLM API Communication |
 | python-dotenv | Environment Variables |
 | Git | Version Control |
@@ -45,7 +45,7 @@ After completing this project, you should be able to:
 
 ---
 
-# 📂 Project Structure
+# 📂 implementation Structure
 
 ```text
 day2/
@@ -56,7 +56,7 @@ day2/
 ├── .python-version
 ├── sys_temp.py
 ├── main.py
-├── pyproject.toml
+├── pyimplementation.toml
 ├── uv.lock
 └── README.md
 ```
@@ -151,7 +151,7 @@ Running the program again may produce different results depending on the **tempe
 
 # 🧠 Concepts Learned
 
-During this project I learned:
+During this implementation I learned:
 
 - What a System Prompt is
 - Difference between System and User roles
@@ -374,7 +374,7 @@ uv add groq python-dotenv
 - ✅ Added a System Prompt
 - ✅ Used Temperature Parameter
 - ✅ Documented the code
-- ✅ Kept project modular
+- ✅ Kept implementation modular
 
 ---
 
@@ -423,6 +423,6 @@ In the next lesson, I'll continue exploring Prompt Engineering and learn more te
 
 **Mayank**
 
-This project is part of my **AI Engineering Roadmap**, where I'm learning AI Engineering by building practical projects, documenting concepts, experimenting with modern LLMs, and sharing everything publicly on GitHub.
+This implementation is part of my **AI Engineering Roadmap**, where I'm learning AI Engineering by building practical implementations, documenting concepts, experimenting with modern LLMs, and sharing everything publicly on GitHub.
 
-If you found this project helpful, consider ⭐ starring the repository.
+If you found this implementation helpful, consider ⭐ starring the repository.
