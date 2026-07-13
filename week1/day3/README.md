@@ -16,13 +16,13 @@ Understanding tokens is essential because they directly affect:
 - Application performance
 - Production scalability
 
-In this project, I explored how different prompts consume different numbers of tokens and how limiting the response length changes the model's behavior.
+In this implementation, I explored how different prompts consume different numbers of tokens and how limiting the response length changes the model's behavior.
 
 ---
 
 # 🎯 Learning Objectives
 
-After completing this project, you should understand:
+After completing this implementation, you should understand:
 
 - What tokens are
 - Why tokens matter
@@ -44,11 +44,11 @@ After completing this project, you should understand:
 | Groq SDK | LLM API Communication |
 | python-dotenv | Environment Variables |
 | Git | Version Control |
-| GitHub | Project Hosting |
+| GitHub | implementation Hosting |
 
 ---
 
-# 📂 Project Structure
+# 📂 implementation Structure
 
 ```text
 day3/
@@ -58,7 +58,7 @@ day3/
 ├── .gitignore
 ├── .python-version
 ├── token_practice.py
-├── pyproject.toml
+├── pyimplementation.toml
 ├── uv.lock
 └── README.md
 ```
@@ -139,7 +139,7 @@ python token_practice.py
 
 # 🧠 Concepts Learned
 
-During this project I learned:
+During this implementation I learned:
 
 - What Tokens are
 - Prompt Tokens
@@ -465,4 +465,4 @@ In the next lesson, I'll continue exploring practical LLM engineering concepts a
 
 **Mayank**
 
-This project is part of my **AI Engineering Roadmap**, where I document my journey of learning AI Engineering through practical implementations, experiments, and detailed technical notes. Each project focuses on understanding core concepts by building, testing, and analyzing real examples that can be extended into production-ready AI applications.
+This implementation is part of my **AI Engineering Roadmap**, where I document my journey of learning AI Engineering through practical implementations, experiments, and detailed technical notes. Each implementation focuses on understanding core concepts by building, testing, and analyzing real examples that can be extended into production-ready AI applications.
