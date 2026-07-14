@@ -1,0 +1,16 @@
+{
+    "candidate_name": "Mayank",
+    "match_percentage": 70,
+    "matched_skills": [
+        "Git",
+        "Machine Learning",
+        "Python",
+        "SQL"
+    ],
+    "missing_skills": [
+        "AWS",
+        "Docker",
+        "FastAPI"
+    ],
+    "recommendation": "Consider for Interview"
+}

@@ -1,0 +1,25 @@
+Name: Mayank
+
+Email: mayank11@gmail.com
+
+Phone: 9988776655
+
+Education:
+Bachelor of Science (Hons.) in Computer Science
+University of Delhi
+
+Skills:
+Python
+SQL
+Machine Learning
+Power BI
+Git
+GitHub
+
+Experience:
+Completed multiple AI engineering implementations using Groq API, Pydantic, JSON Mode, and prompt engineering.
+
+Projects:
+AI Engineering Roadmap
+Token Playground
+Resume Screening Application

@@ -1,0 +1,34 @@
+========================================
+RESUME SCREENING REPORT
+========================================
+
+Candidate
+Mayank
+
+----------------------------------------
+
+Match Percentage
+70%
+
+----------------------------------------
+
+Matched Skills
+
+✔️ Git
+✔️ Machine Learning
+✔️ Python
+✔️ SQL
+
+----------------------------------------
+
+Missing Skills
+
+❌ AWS
+❌ Docker
+❌ FastAPI
+
+----------------------------------------
+
+Recommendation
+
+Consider for Interview
