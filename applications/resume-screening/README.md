@@ -1,7 +1,7 @@
 # 📄 Resume Screening Application (Version 1.0)
 
 > An AI-powered Resume Screening application that extracts structured information from resumes and job descriptions using Large Language Models (LLMs), validates the output with Pydantic, compares candidate skills against job requirements, and generates screening reports.
-
+> Version 1.0 supports resumes and job requirements in txt format, pdf and docs support will be in version 2.0
 ---
 
 # 📖 Overview
