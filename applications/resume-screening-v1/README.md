@@ -407,6 +407,6 @@ This application demonstrates how these components work together to transform un
 
 **Mayank**
 
-This application is part of my **AI Engineering Roadmap**, where I document my learning journey by building practical applications, conducting experiments, and exploring real-world AI engineering workflows.
+This application is part of my **AI Engineering Roadmap**, where I document my journey of learning AI Engineering by building practical applications, conducting experiments, and understanding the engineering principles behind modern AI systems. Each milestone focuses on implementing concepts from scratch while keeping the solutions simple, reusable, and production-oriented.
 
 Rather than only showcasing finished projects, this repository captures the progression from foundational implementations to more advanced AI systems while emphasizing clean engineering practices and reproducible experimentation.
