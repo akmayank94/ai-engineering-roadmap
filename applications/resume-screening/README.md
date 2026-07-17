@@ -1,7 +1,8 @@
 # 📄 Resume Screening Application (Version 1.0)
 
 > An AI-powered Resume Screening application that extracts structured information from resumes and job descriptions using Large Language Models (LLMs), validates the output with Pydantic, compares candidate skills against job requirements, and generates screening reports.
-> Version 1.0 supports resumes and job requirements in txt format, pdf and docs support will be in version 2.0
+
+> **Version 1.0** focuses on structured resume screening using plain text (TXT) documents to establish the core extraction, validation, and matching pipeline. Future iterations will extend the application with PDF/DOCX parsing, semantic evaluation, and batch candidate processing.
 ---
 
 # 📖 Overview
@@ -21,6 +22,13 @@ Instead of relying on fragile string parsing, the application uses **JSON Mode**
 
 ---
 
+> **Learning Milestone**
+>
+> This project represents the first iteration of my Resume Screening application.
+>
+> The primary goal of Version 1.0 is to understand how structured outputs, JSON Mode, and Pydantic can be combined to transform unstructured text into reliable Python objects before introducing more advanced document parsing and AI evaluation workflows.
+---
+
 # 🎯 Objectives
 
 This application was built to understand and practice:
@@ -32,6 +40,25 @@ This application was built to understand and practice:
 - Converting unstructured text into structured Python objects
 - Building simple AI-powered automation workflows
 - Separating AI extraction from business logic
+
+---
+
+# 🎓 Why This Project?
+
+This project was built to understand an important AI engineering principle:
+
+> **Separate AI reasoning from application logic whenever possible.**
+
+Instead of asking the LLM to perform every task, the model is responsible only for extracting structured information.
+
+The application then performs matching, scoring, and report generation using deterministic Python code.
+
+This design makes the workflow:
+
+- Easier to debug
+- More predictable
+- Less expensive
+- Easier to extend
 
 ---
 
@@ -330,18 +357,33 @@ This greatly simplifies AI application development.
 
 ---
 
+# 📈 Project Evolution
+
+This repository documents the progression of my AI Engineering learning journey rather than only the final implementations.
+
+Version 1.0 focuses on building a reliable foundation using:
+
+- Structured Outputs
+- JSON Mode
+- Pydantic Validation
+- Rule-based Skill Matching
+
+Future iterations build upon this foundation by introducing richer document processing, semantic AI evaluation, and more production-oriented workflows.
+
+---
+
 # 🚀 Future Improvements
 
 Planned enhancements include:
 
-- Support PDF resumes
-- Support DOCX resumes
-- Compare candidate experience
-- Compare education requirements
-- Match projects and certifications
-- Export PDF reports
-- Batch screening of multiple resumes
-- Web interface for recruiters
+- Read resumes directly from PDF and DOCX files
+- Process multiple resumes in a single run
+- Use semantic AI-based candidate evaluation
+- Compare projects, education, certifications, and experience
+- Export reports in PDF format
+- Store candidate results in a database
+- Build a web interface for recruiters
+- Introduce Retrieval-Augmented Generation (RAG) for richer evaluation
 
 ---
 
@@ -365,4 +407,6 @@ This application demonstrates how these components work together to transform un
 
 **Mayank**
 
-This application is part of my **AI Engineering Roadmap**, where I document my journey of learning AI Engineering by building practical applications, conducting experiments, and understanding the engineering principles behind modern AI systems. Each milestone focuses on implementing concepts from scratch while keeping the solutions simple, reusable, and production-oriented.
+This application is part of my **AI Engineering Roadmap**, where I document my learning journey by building practical applications, conducting experiments, and exploring real-world AI engineering workflows.
+
+Rather than only showcasing finished projects, this repository captures the progression from foundational implementations to more advanced AI systems while emphasizing clean engineering practices and reproducible experimentation.
