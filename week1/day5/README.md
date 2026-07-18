@@ -394,6 +394,12 @@ Structured data is easier to validate, debug, reuse, and integrate into larger A
 
 ---
 
+# Next Day is about -
+
+Prompt Engineering , Stay Tuned 🔥
+
+---
+
 # 🔑 Key Takeaway
 
 This project demonstrates a complete AI engineering workflow—from reading real-world documents to extracting structured data, evaluating candidates with an LLM, and ranking applicants automatically.
