@@ -67,12 +67,15 @@ role = "user"
 
 from pydantic import BaseModel
 
+# BaseModel include all the things user needs in json format
+# Here, We created a class named Ticket
+
 class Ticket(BaseModel):
     name: str
     email: str
     issue: str
 
-# Convert the Pydantic model into a JSON schema.
+# Converting the Pydantic model into a JSON schema or a framework.
 schema = Ticket.model_json_schema()
 
 
