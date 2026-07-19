@@ -156,7 +156,8 @@ During this implementation I learned:
 
 # 🪙 What is a Token?
 
-A token is the smallest unit of text that an LLM processes.
+A token is the fundamental unit of text or data that a Large Language Model (LLM) reads, processes, and generates. Rather than whole words, a token can be a full word, a sub-word (like a prefix or suffix), a single character, or a punctuation mark.
+In laymen term, tokens are the common reusable word chunks which are fundamental and used by LLMs.
 
 A token is **not always a word**.
 
